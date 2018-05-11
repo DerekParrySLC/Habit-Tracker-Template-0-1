@@ -12,6 +12,7 @@ button {
 	border: none;
 	color: #52b3d9;
 	padding: 15px 32px;
+	touch-action: manipulation;
 }
 
 a {
