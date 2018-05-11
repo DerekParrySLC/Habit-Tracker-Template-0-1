@@ -32,7 +32,7 @@ instructions.style.display = "none";
 
 function toggleInstructions() {
 	if (instructions.style.display === "none") {
-		instructions.style.display = "initial";
+		instructions.style.display = "block";
 	} else {
 		instructions.style.display = "none";
 	}
