@@ -1,18 +1,35 @@
 
 body {
 	color: white;
-	background-color: #52b3d9;
+	background-color: #52b3d9; /*choose your own at http://www.flatuicolorpicker.com/*/
 	text-align: center;
 	margin-top: 50px;
 	font-family: 'Indie Flower', cursive;
 }
 
 button {
+	border-radius: 25px;
+	touch-action: manipulation;
+}
+
+button,
+button:focus {
+	border-radius: 3px;
+}
+
+#plus-one {
 	background-color: white;
 	border: none;
 	color: #52b3d9;
 	padding: 15px 32px;
-	touch-action: manipulation;
+}
+
+#reset {
+	background-color: #52b3d9;
+	border-color: rgba(255,255,255,0.8);
+	border-style: solid;
+	color: rgba(255,255,255,0.8);
+	padding: 5px 15px;
 }
 
 a {
