@@ -7,14 +7,11 @@ body {
 	font-family: 'Indie Flower', cursive;
 }
 
-button {
-	border-radius: 25px;
-	touch-action: manipulation;
-}
-
 button,
 button:focus {
 	border-radius: 3px;
+	touch-action: manipulation;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #plus-one {
