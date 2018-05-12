@@ -1,7 +1,29 @@
 
+/*Theme color*/
+body,
+#reset {
+	background-color: #52B3D9; /*change here*/
+}
+#plus-one {
+	color: #52B3D9; /*and here*/
+}
+
+/*Choose your own at http://www.flatuicolorpicker.com
+cinnabar: F03434
+cabaret: D2527F
+studio: 8E44AD
+shakespeare: 52B3D9 (default)
+summer green: 91B496
+gossip: 87D37C
+california: F89406
+crusta: F2784B
+edward: ABB7B7
+*/
+
+/*Habit Tracker Styles*/
+
 body {
 	color: white;
-	background-color: #52b3d9; /*choose your own at http://www.flatuicolorpicker.com/*/
 	text-align: center;
 	margin-top: 50px;
 	font-family: 'Indie Flower', cursive;
@@ -17,12 +39,10 @@ button:focus {
 #plus-one {
 	background-color: white;
 	border: none;
-	color: #52b3d9;
 	padding: 15px 32px;
 }
 
 #reset {
-	background-color: #52b3d9;
 	border-color: rgba(255,255,255,0.8);
 	border-style: solid;
 	color: rgba(255,255,255,0.8);
